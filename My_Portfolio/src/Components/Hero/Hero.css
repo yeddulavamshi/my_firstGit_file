@@ -1,0 +1,86 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: block;
+    height: 170px;
+    width:170px;
+    margin-top: -60px;
+    border: 5px solid #ffffff;
+    border-radius: 100px;
+}
+
+.card{
+    background: var(--light);
+    padding: 0px 10px;
+    border: none !important;
+    border-radius: 17px !important;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.type-writer p{
+    color: var(--type-writer);
+}
+
+.type-writer p span{
+    color: var(--type-writer);
+    margin-left: 2px;
+
+}
+
+.card-text{
+    color: var(--para);
+}
+
+.about-text {
+    text-align: justify;
+    font-size: 16px;
+  }
+
+.butns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #313131b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover .fa-github { color: #333; }
+.social-links a:hover .fa-linkedin { color: #0a66c2; }
+.social-links a:hover .fa-envelope { color: #d93025; }
+.social-links a:hover .fa-instagram { 
+            color: transparent;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+
+
+@media (max-width:768px) {
+.about-text{
+    font-size: 14px !important;
+}
+}
+        
+        

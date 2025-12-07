@@ -1,0 +1,18 @@
+.form-control-custom {
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    width: 100%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.form-control-custom:focus {
+    outline: none;
+    border-color: #000; /* Changed to Black */
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1); /* Changed to Black shadow */
+}
+
+.contact-icon{
+    font-size: 18px;
+    margin-right: 3px;
+}
